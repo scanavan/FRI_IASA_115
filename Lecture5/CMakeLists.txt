@@ -1,5 +1,7 @@
+#require at least cmake 2.8
 CMAKE_MINIMUM_REQUIRED(VERSION 2.8.0 FATAL_ERROR)
 cmake_policy(VERSION 2.8)
+#name of project
 PROJECT(Lecture5)
 #make sure we only build release
 SET(CMAKE_CONFIGURATION_TYPES Debug Release CACHE STRING "" FORCE)
