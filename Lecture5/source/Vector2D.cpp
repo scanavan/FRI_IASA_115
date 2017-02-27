@@ -2,10 +2,9 @@
 #include <iostream>
 
 Vector2D::Vector2D() :
-      xVal(0.f)
-    , yVal(0.f)
+	Vector2D(Vector2D(0.f, 0.f))
 {
-
+	
 }
 Vector2D::Vector2D(float x, float y) :
       xVal(x)
@@ -14,8 +13,7 @@ Vector2D::Vector2D(float x, float y) :
 
 }
 Vector2D::Vector2D(const Vector2D &vec) :
-      xVal(vec.xVal)
-    , yVal(vec.yVal)
+    Vector2D(vec.xVal, vec.yVal)
 {
 
 }

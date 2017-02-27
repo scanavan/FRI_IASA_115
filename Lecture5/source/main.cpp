@@ -16,10 +16,12 @@ int main()
     vec2dZero.Print();
     vec2dNonZero.Print();
     vec2dCopy.Print();
-
+	
     vec3dZero.Print();
     vec3dNonZero.Print();
     vec3dCopy.Print();
+
+	Line2D line2(vec2dZero, vec2dCopy);
 
     Line2D* line = new Line2D(vec2dZero, vec2dCopy);
     line->Print();
