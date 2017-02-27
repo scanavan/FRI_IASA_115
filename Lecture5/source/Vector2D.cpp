@@ -2,7 +2,7 @@
 #include <iostream>
 
 Vector2D::Vector2D() :
-	Vector2D(Vector2D(0.f, 0.f))
+	Vector2D(0.f, 0.f)
 {
 	
 }
