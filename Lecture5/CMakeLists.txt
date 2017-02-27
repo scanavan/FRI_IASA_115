@@ -16,5 +16,5 @@ FILE(GLOB HEADER_FILES ${INCLUDE_DIR}/*.h)
 
 #make sure we include the path to the include directory
 INCLUDE_DIRECTORIES(${INCLUDE_DIR})
-#create exe
+#create exe called Lecture5
 ADD_EXECUTABLE(Lecture5 ${SOURCE_FILES} ${HEADER_FILES})
