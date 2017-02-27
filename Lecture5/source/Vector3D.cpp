@@ -2,9 +2,10 @@
 #include <iostream>
 
 Vector3D::Vector3D() :
-      xVal(0.f)
-    , yVal(0.f)
-    , zVal(0.f)
+	Vector3D(0.f, 0.f, 0.f)
+    //  xVal(0.f)
+    //, yVal(0.f)
+    //, zVal(0.f)
 {
 
 }
@@ -16,9 +17,10 @@ Vector3D::Vector3D(float x, float y, float z) :
 
 }
 Vector3D::Vector3D(const Vector3D &vec) :
-      xVal(vec.xVal)
-    , yVal(vec.yVal)
-    , zVal(vec.zVal)
+	Vector3D(vec.xVal, vec.yVal, vec.zVal)
+    //  xVal(vec.xVal)
+    //, yVal(vec.yVal)
+    //, zVal(vec.zVal)
 {
   
 }

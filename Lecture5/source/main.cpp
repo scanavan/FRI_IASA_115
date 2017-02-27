@@ -21,7 +21,7 @@ int main()
     vec3dNonZero.Print();
     vec3dCopy.Print();
 
-    Line2D* line;// = new Line2D(vec2dZero, vec2dCopy);
+    Line2D* line = new Line2D(vec2dZero, vec2dCopy);
     line->Print();
     std::cout << line << " " << *line << std::endl;
 
