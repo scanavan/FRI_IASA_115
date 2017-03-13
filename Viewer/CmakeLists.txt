@@ -20,7 +20,7 @@ SOURCE_GROUP("Source Files" FILES ${SOURCE_FILES})
 #make sure we include opencv include dir
 INCLUDE_DIRECTORIES(${OPENCV_DIR}/include ${INCLUDE_DIR})
 #include opencv lib directory
-LINK_DIRECTORIES(${OPENCV_DIR}/x64/vc12/lib)
+LINK_DIRECTORIES(${OPENCV_DIR}/x64/vc14/lib)
 #create exe
 ADD_EXECUTABLE(${Project} ${SOURCE_FILES} ${HEADER_FILES}) 
 #link libs
