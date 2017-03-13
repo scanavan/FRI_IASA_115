@@ -24,4 +24,4 @@ LINK_DIRECTORIES(${OPENCV_DIR}/x64/vc12/lib)
 #create exe
 ADD_EXECUTABLE(${Project} ${SOURCE_FILES} ${HEADER_FILES}) 
 #link libs
-TARGET_LINK_LIBRARIES(${Project} opencv_world310.lib)
+TARGET_LINK_LIBRARIES(${Project} opencv_world320.lib)
